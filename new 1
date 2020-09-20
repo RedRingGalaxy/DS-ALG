@@ -1,0 +1,7 @@
+def radixSort(array):
+	max_ele = max(array)
+	print(max_ele)
+
+if __name__ == "__main__":
+	array = [121, 432, 564, 23, 1, 45, 788]
+	radixSort(array)
